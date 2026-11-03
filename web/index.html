@@ -4,9 +4,9 @@
 <body>
 <canvas id="game" aria-label="Shooter táctico en primera persona"></canvas>
 <header><b>TAPECHI <span>TACTICAL</span></b><div id="round">RONDA 01</div><div id="time">01:30</div></header>
-<aside><small>OPERACIÓN / PATIO</small><h2>Partida multijugador</h2><p id="objective">Conectate para entrar</p></aside>
+<aside><small>OPERACIÓN / PATIO</small><h2>Eliminá a la patrulla</h2><p id="objective">3 objetivos restantes</p></aside>
 <div id="crosshair">+</div><div id="damage"></div><div id="notice"></div>
 <footer><div><small>SALUD</small><strong id="health">100</strong></div><div class="weapon"><small>CARABINA / T-24</small><strong><span id="ammo">24</span><em> / <span id="reserve">120</span></em></strong></div></footer>
-<div id="overlay"><section><small>PROTOTIPO JUGABLE · MULTIJUGADOR</small><h1>TAPECHI<span>TACTICAL</span></h1><p id="message">Entrá al patio. Usá las coberturas. Partida multijugador antes de que termine el tiempo.</p><button id="play">INICIAR OPERACIÓN →</button><p class="controls">W A S D · Mover &nbsp; | &nbsp; Mouse · Apuntar<br>Clic · Disparar &nbsp; | &nbsp; R · Recargar<br>Shift · Correr &nbsp; | &nbsp; Esc · Pausa<br>También podés girar con ← → y disparar con Espacio.</p></section></div>
+<div id="overlay"><section><small>PROTOTIPO JUGABLE · SOLO / ONLINE</small><h1>TAPECHI<span>TACTICAL</span></h1><p id="message">Jugá contra bots sin conexión a una partida, o entrá al multijugador online.</p><label for="mode">Modo de juego</label><select id="mode"><option value="solo">Un jugador · Contra bots</option><option value="online">Multijugador online</option></select><button id="play">INICIAR OPERACIÓN →</button><p class="controls">W A S D · Mover &nbsp; | &nbsp; Mouse · Apuntar<br>Clic · Disparar &nbsp; | &nbsp; R · Recargar<br>Shift · Correr &nbsp; | &nbsp; Esc · Pausa<br>También podés girar con ← → y disparar con Espacio.</p></section></div>
 <script type="module" src="game.js"></script>
 </body></html>
