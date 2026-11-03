@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tapechi · Zona de entrenamiento</title><link rel="stylesheet" href="style.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tapechi · Zona de entrenamiento</title><link rel="stylesheet" href="style.css?v=mouse2"></head>
 <body>
 <canvas id="game" aria-label="Shooter táctico en primera persona"></canvas>
 <header><b>TAPECHI <span>TACTICAL</span></b><div id="round">RONDA 01</div><div id="time">01:30</div></header>
 <aside><small>OPERACIÓN / PATIO</small><h2>Eliminá a la patrulla</h2><p id="objective">3 objetivos restantes</p></aside>
-<div id="crosshair">+</div><div id="damage"></div><div id="notice"></div>
+<div id="crosshair"><i></i></div><div id="mouse-status">MOVÉ EL MOUSE PARA APUNTAR</div><div id="damage"></div><div id="notice"></div>
 <footer><div><small>SALUD</small><strong id="health">100</strong></div><div class="weapon"><small>CARABINA / T-24</small><strong><span id="ammo">24</span><em> / <span id="reserve">120</span></em></strong></div></footer>
-<div id="overlay"><section><small>PROTOTIPO JUGABLE · SOLO / ONLINE</small><h1>TAPECHI<span>TACTICAL</span></h1><p id="message">Jugá contra bots sin conexión a una partida, o entrá al multijugador online.</p><label for="mode">Modo de juego</label><select id="mode"><option value="solo">Un jugador · Contra bots</option><option value="online">Multijugador online</option></select><button id="play">INICIAR OPERACIÓN →</button><p class="controls">W A S D · Mover &nbsp; | &nbsp; Mouse · Apuntar<br>Clic · Disparar &nbsp; | &nbsp; R · Recargar<br>Shift · Correr &nbsp; | &nbsp; Esc · Pausa<br>También podés girar con ← → y disparar con Espacio.</p></section></div>
-<script type="module" src="game.js"></script>
+<div id="overlay"><section><small>PROTOTIPO JUGABLE · SOLO / ONLINE</small><h1>TAPECHI<span>TACTICAL</span></h1><p id="message">Jugá contra bots sin conexión a una partida, o entrá al multijugador online.</p><label for="mode">Modo de juego</label><select id="mode"><option value="solo">Un jugador · Contra bots</option><option value="online">Multijugador online</option></select><label for="sensitivity">Sensibilidad del mouse</label><input id="sensitivity" type="range" min="1" max="6" step="0.25" value="2.5"><button id="play">INICIAR OPERACIÓN →</button><p class="controls">W A S D · Mover &nbsp; | &nbsp; Mouse · Apuntar<br>Clic · Disparar &nbsp; | &nbsp; R · Recargar<br>Shift · Correr &nbsp; | &nbsp; Esc · Pausa<br>El mouse apunta horizontal y verticalmente. Si la vista previa bloquea su captura, podés apuntar moviéndolo sobre la escena.<br>También podés girar con ← → y disparar con Espacio.</p></section></div>
+<script type="module" src="game.js?v=mouse2"></script>
 </body></html>

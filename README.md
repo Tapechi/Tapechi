@@ -17,7 +17,7 @@ Para jugar online, elegí **Multijugador online** y abrí la dirección del serv
 
 ## Controles
 
-WASD para moverse, mouse para apuntar, clic o Espacio para disparar, R para recargar, Shift para correr y Esc para pausar. Las flechas izquierda/derecha también permiten apuntar. Hacé clic dentro de la escena para capturar el mouse.
+WASD para moverse, mouse para apuntar horizontal y verticalmente, clic o Espacio para disparar, R para recargar, Shift para correr y Esc para pausar. Las flechas izquierda/derecha también permiten apuntar. Hacé clic dentro de la escena para capturar el mouse. Si una vista previa bloquea la captura, el apuntado funciona moviendo el mouse sobre la escena. La sensibilidad se ajusta desde el menú de pausa.
 
 ## Primera versión
 
